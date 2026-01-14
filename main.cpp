@@ -1,12 +1,13 @@
 #include <iostream>
-double Temp_Trans(double x);
+double Astr_Light(double x);
+
 int main() {
-    double temp;
-    std::cout<<"Please enter a Celsius value:"<<std::endl;
-    std::cin>>temp;
-    std::cout<<temp<<" degrees Celsius is "<<Temp_Trans(temp)<<" degrees Fahrenheit"<<std::endl;
+    double L_Y;
+    std::cout<<"Enter the number of the light year: ";
+    std::cin>>L_Y;
+    std::cout<<L_Y<<" light years = "<<Astr_Light(L_Y)<<" astronomical units."<<std::endl;
 }
 
-double Temp_Trans(double x) {
-    return 1.8*x+32.0;
+double Astr_Light(double x) {
+    return x*63240;
 }
