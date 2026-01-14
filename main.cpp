@@ -1,18 +1,12 @@
 #include <iostream>
-void Func_1();
-void Func_2();
-
+double Temp_Trans(double x);
 int main() {
-    Func_1();
-    Func_1();
-    Func_2();
-    Func_2();
+    double temp;
+    std::cout<<"Please enter a Celsius value:"<<std::endl;
+    std::cin>>temp;
+    std::cout<<temp<<" degrees Celsius is "<<Temp_Trans(temp)<<" degrees Fahrenheit"<<std::endl;
 }
 
-void Func_1() {
-    std::cout<<"Three blind mice"<<std::endl;
-}
-
-void Func_2() {
-    std::cout<<"See how them run"<<std::endl;
+double Temp_Trans(double x) {
+    return 1.8*x+32.0;
 }
