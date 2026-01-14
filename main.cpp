@@ -1,8 +1,18 @@
 #include <iostream>
+void Func_1();
+void Func_2();
 
 int main() {
-    int Dist_fur;
-    std::cout<<"please enter a distance measured in furlongs"<<std::endl;
-    std::cin>>Dist_fur;
-    std::cout<<"its "<<Dist_fur * 220<<" yards"<<std::endl;
+    Func_1();
+    Func_1();
+    Func_2();
+    Func_2();
+}
+
+void Func_1() {
+    std::cout<<"Three blind mice"<<std::endl;
+}
+
+void Func_2() {
+    std::cout<<"See how them run"<<std::endl;
 }
