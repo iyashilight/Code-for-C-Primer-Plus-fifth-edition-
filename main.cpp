@@ -1,13 +1,15 @@
 #include <iostream>
-double Astr_Light(double x);
-
+void Show_T(int x,int y);
 int main() {
-    double L_Y;
-    std::cout<<"Enter the number of the light year: ";
-    std::cin>>L_Y;
-    std::cout<<L_Y<<" light years = "<<Astr_Light(L_Y)<<" astronomical units."<<std::endl;
+    int h;
+    int m;
+    std::cout<<"Enter the number of hours: ";
+    std::cin>>h;
+    std::cout<<"Enter the number of minutes: ";
+    std::cin>>m;
+    Show_T(h,m);
 }
 
-double Astr_Light(double x) {
-    return x*63240;
+void Show_T(int x, int y) {
+    std::cout<<"Time: "<<x <<":"<< y;
 }
