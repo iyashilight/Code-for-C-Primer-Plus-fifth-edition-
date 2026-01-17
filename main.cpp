@@ -1,26 +1,18 @@
 #include<iostream>
 
-int main() {
-    long total_second;
+int main(){
 
-    std::cout<<"Enter the number of seconds: ";
-    std::cin>>total_second;
+    double distance_km;
+    double fuel_liter;
 
-    constexpr long second_per_day(24*3600);
-    constexpr long second_per_hour(3600);
-    constexpr long second_per_minute(60);
+    std::cout<<"Enter your distance in km: ";
+    std::cin>>distance_km;
 
-    long remaining = total_second;
+    std::cout<<"Enter your fuel in liter: ";
+    std::cin>>fuel_liter;
 
-    long day = remaining/second_per_day;
-    long hour = remaining%second_per_day/second_per_hour;
-    long minute = remaining%second_per_hour/second_per_minute;
-    long second = remaining%second_per_minute;
+    double fuel_consumption = (fuel_liter*100.0)/distance_km;
 
-    std::cout<<total_second<<" seconds = "<<
-        day<<" days,"<<
-            hour<<" hours,"<<
-                minute<<" minutes,"<<
-                    second<<" seconds";
+    std::cout<<"the fuel consumption per 100km is: "<<fuel_consumption;
 
 }
