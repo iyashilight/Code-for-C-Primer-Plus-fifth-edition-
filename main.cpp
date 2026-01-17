@@ -1,5 +1,10 @@
-#include <iostream>
+#include<iostream>
 
 int main() {
-    std::cout<<"Name:yagami\n"<<"address:tokyo"<<std::endl;
+    float uHeight;
+    constexpr float ConFct(1.0/12);
+    std::cout<<"Enter your Height___\b\b\b";
+    std::cin>>uHeight;
+    std::cout<<"Your height is "<<uHeight*ConFct<<" feet";
+
 }
