@@ -11,12 +11,12 @@ Progress is managed using Git branches + commits:
 Repository Branch Description:
 
 
-test--[test](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commit/e77a54cb4571d2b1a3e596a99da3c3f58c2d7110)
+  test--[test](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commit/e77a54cb4571d2b1a3e596a99da3c3f58c2d7110)
 
 Purpose: Testing git, verifying approaches, experimental attempts
 
 
-Chapter-Two--[chapter-two](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chapter-Two/)
+  Chapter-Two--[chapter-two](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chapter-Two/)
 
 Content: 
 
@@ -37,7 +37,7 @@ Usage:
 -View the solution process for each exercise via Git commit history (Git Log)
 
 
-Chapter-Three--[chapter-three](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chaper-Three/)
+  Chapter-Three--[chapter-three](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chaper-Three/)
 
 Content:
 
