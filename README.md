@@ -1,36 +1,62 @@
 C++ Primer Plus(fifth edition) Exercise Answer Repository
 
 This repository records exercise answers and solution processes for each chapter during C++ learning.
+
 Progress is managed using Git branches + commits:
+
 -Branches: Represent chapters or purposes
+
 -commits: Represent the answer to a specific exercise within a chapter
 
 Repository Branch Description:
+
+
 test
+
 Purpose: Testing git, verifying approaches, experimental attempts
 
 
 Chapter-Two
+
 Content: 
+
 -Answers for Chapter 2 exercises
+
 Structure Notes:
+
 -7 commits in total
+
 -Each commit corresponds to one exercise from Chapter 2
+
 -Each commit addresses only one problem, without mixing multiple exercises
+
 Usage:
+
 -Switch to the Chapter-Two branch
+
 -View the solution process for each exercise via Git commit history (Git Log)
 
+
 Chapter-Three
-Content: 
+Content:
+
 -Answers for Chapter 3 exercises
+
 Structure Notes:
+
 -7 commits in total
+
 -Each commit corresponds to one exercise from Chapter 3
+
 -Each commit addresses only one problem, without mixing multiple exercises
+
 Usage:
+
 -Switch to the Chapter-Three branch
+
 -View the implementation of each exercise in commit order
+
+
 
 Learning and Usage Suggestions:
 To view answers for a specific chapter:
