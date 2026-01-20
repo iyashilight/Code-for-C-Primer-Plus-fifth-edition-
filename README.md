@@ -37,7 +37,8 @@ Usage:
 -View the solution process for each exercise via Git commit history (Git Log)
 
 
-Chapter-Three
+Chapter-Three--[chapter-three](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chaper-Three/)
+
 Content:
 
 -Answers for Chapter 3 exercises
