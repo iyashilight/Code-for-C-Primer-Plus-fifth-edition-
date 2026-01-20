@@ -24,7 +24,7 @@ Content:
 
 Structure Notes:
 
--7 commits in total
+-6 commits in total
 
 -Each commit corresponds to one exercise from Chapter 2
 
@@ -45,7 +45,7 @@ Content:
 
 Structure Notes:
 
--7 commits in total
+-6 commits in total
 
 -Each commit corresponds to one exercise from Chapter 3
 
