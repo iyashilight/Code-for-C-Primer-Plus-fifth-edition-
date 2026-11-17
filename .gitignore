@@ -1,0 +1,29 @@
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.suo
+*.user
+
+# CMake 构建产物
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.pdb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

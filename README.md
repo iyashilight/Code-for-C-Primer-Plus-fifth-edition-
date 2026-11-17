@@ -1,77 +1,55 @@
-C++ Primer Plus(fifth edition) Exercise Answer Repository
+# C++ Primer Plus（第五版）习题答案
 
-This repository records exercise answers and solution processes for each chapter during C++ learning.
+《C++ Primer Plus（第 5 版）》课后编程练习的答案与解题过程记录。
 
-Progress is managed using Git branches + commits:
+每道习题单独占一个 commit，按**章节分支**组织，方便按顺序查看思路演进。
 
--Branches: Represent chapters or purposes
+## 分支说明
 
--commits: Represent the answer to a specific exercise within a chapter
+| 分支 | 内容 | 提交数 |
+| --- | --- | --- |
+| [`Chapter-Two`](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chapter-Two) | 第 2 章习题 | 6 |
+| [`Chaper-Three`](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chaper-Three) | 第 3 章习题（分支名沿用创建时的拼写） | 6 |
+| `master` | 通用实验与 CMake 工程骨架（`main.cpp`） | — |
 
-Repository Branch Description:
+组织原则：
 
+- **分支**：代表章节或用途
+- **commit**：对应章节内的某一道习题
+- 每个 commit 只解决一道题，不混合多道习题
 
-  test--[test](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commit/e77a54cb4571d2b1a3e596a99da3c3f58c2d7110)
+## 使用方式
 
-Purpose: Testing git, verifying approaches, experimental attempts
+```bash
+git clone git@github.com:iyashilight/Code-for-C-Primer-Plus-fifth-edition-.git
+cd Code-for-C-Primer-Plus-fifth-edition-
 
+# 查看所有分支
+git branch -a
 
-  Chapter-Two--[chapter-two](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chapter-Two/)
+# 切到某一章
+git checkout Chapter-Two
 
-Content: 
+# 按 commit 顺序查看每道题的解答
+git log --oneline
+git show <commit>
+```
 
--Answers for Chapter 2 exercises
+## 构建（master 分支）
 
-Structure Notes:
+需要 CMake（版本要求见 `CMakeLists.txt`）和支持 C++20 的编译器：
 
--6 commits in total
+```bash
+cmake -B build -S .
+cmake --build build
+./build/My_Study        # Windows: .\build\Debug\My_Study.exe
+```
 
--Each commit corresponds to one exercise from Chapter 2
+## 说明
 
--Each commit addresses only one problem, without mixing multiple exercises
+- 本仓库用于个人学习记录，不追求工程级完整性
+- 代码是学习过程的真实记录，后续章节会按同样结构继续补充
 
-Usage:
+## 许可
 
--Switch to the Chapter-Two branch
-
--View the solution process for each exercise via Git commit history (Git Log)
-
-
-  Chapter-Three--[chapter-three](https://github.com/iyashilight/Code-for-C-Primer-Plus-fifth-edition-/commits/Chaper-Three/)
-
-Content:
-
--Answers for Chapter 3 exercises
-
-Structure Notes:
-
--6 commits in total
-
--Each commit corresponds to one exercise from Chapter 3
-
--Each commit addresses only one problem, without mixing multiple exercises
-
-Usage:
-
--Switch to the Chapter-Three branch
-
--View the implementation of each exercise in commit order
-
-
-
-Learning and Usage Suggestions:
-To view answers for a specific chapter:
--Directly switch to the corresponding chapter branch
-To view a single exercise solution:
--Use Git Log to locate the corresponding commit
-
-Recommended command:
--git log --oneline
-
-Notes
-This repository is for learning purposes and does not pursue engineering-level completeness
-
-All code is a record of personal learning progress
-
-Subsequent chapters will be expanded following the same structure
-
+本项目基于 [GPL-3.0](LICENSE) 发布。
